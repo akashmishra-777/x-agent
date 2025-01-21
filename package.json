@@ -4,7 +4,7 @@
   "description": "This is the server of a powerful AI bot/agent",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
