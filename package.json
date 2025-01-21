@@ -1,0 +1,27 @@
+{
+  "name": "x-infinity-server",
+  "version": "0.1.0",
+  "description": "This is the server of a powerful AI bot/agent",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akashmishra-777/x-agent.git"
+  },
+  "keywords": [
+    "x-agent"
+  ],
+  "author": "Akash Mishra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akashmishra-777/x-agent/issues"
+  },
+  "homepage": "https://github.com/akashmishra-777/x-agent#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5"
+  }
+}
