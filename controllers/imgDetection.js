@@ -5,7 +5,6 @@ const Groq = require('groq-sdk');
 async function imgDetection(req,res) {
 
 
-    
 
 
 if(req.body.imgPrompt != null || undefined){
@@ -62,7 +61,7 @@ async function main() {
     "stop": null
   });
 
-   res.status(200).json({status:true,response:chatCompletion.choices[0].message.content});
+   res.status(200).json({status:true,response:chatCompletion.choices[0].message.content,imageurl:result.secure_url});
 }
 
 main();
