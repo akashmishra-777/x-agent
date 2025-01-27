@@ -28,6 +28,11 @@ router.post("/addStability",stabilityKeyHandler)
 router.post("/addGroq",groqKeyHandler)
 
 
+router.get("/check",(req,res)=>{
+  res.json({msg:"Service Online"})
+})
+
+
 
 
 module.exports = router
