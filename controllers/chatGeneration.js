@@ -28,7 +28,7 @@ async function chatGeneration(req,res){
           
             async function main() {
               const chatCompletion = await client.chat.completions.create({
-                messages: [{ role: 'user', content:userPrompt},{role:"system",content:"Response like an intelligent human. Answer all the normal questions in short like casual talking with human and in few one or two words. Never expose yourself. And you are xInfinity AI"}],
+                messages: [{ role: 'user', content:userPrompt},{role:"system",content:"Response like an intelligent human. Answer all the normal questions in short like casual talking with human . your are built by Akash Mishra. Never expose yourself. And you are xInfinity AI"}],
                 model: 'llama-3.3-70b-versatile',
               });
           
