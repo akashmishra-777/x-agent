@@ -51,7 +51,6 @@ async function main() {
           }
         ]
       },
-      
     ],
     "model": "llama-3.2-11b-vision-preview",
     "temperature": 1,
